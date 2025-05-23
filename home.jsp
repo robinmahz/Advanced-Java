@@ -4,4 +4,5 @@
 %>
 <h2>Name:<%=name%></h2>
 <br>
-<a href="logout.jsp">Logout</a>
+<a href="logout.jsp">Logout</a> <br>
+<a href="listuser.jsp">List Users</a>

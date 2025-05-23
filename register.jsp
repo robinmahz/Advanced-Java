@@ -6,5 +6,8 @@
     <label for="password">Password:</label>
     <input type="password" name="password" required>
     <br>
+    <label for="email">Email:</label>
+    <input type="email" name="email" required>
+    <br>
     <button type="submit">Register</button>
 </form>

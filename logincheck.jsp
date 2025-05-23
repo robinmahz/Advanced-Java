@@ -43,11 +43,10 @@ try {
     }
 }
 
-
 	if(isValidUser) {
 		session.setAttribute("NAME", name);
 		response.sendRedirect("home.jsp");
 	} else {
-		response.sendRedirect("index.jsp?msg=Invalid Login");
+		response.sendRedirect("index.jsp?msg=Username or password is incorrect");
 	}
 %>
